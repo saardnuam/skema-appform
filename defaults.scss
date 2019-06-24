@@ -1,0 +1,58 @@
+$standard-font: "Open Sans", Helvetica, Arial, sans-serif;
+$font-serif: "Open Sans",Helvetica, Arial, sans-serif;
+$font-size: 14px;
+$label-width: 250px;
+
+/* for white text */
+$color-standard: rgb(231, 81, 74);
+/*$color-standard-light: rgba(231, 81, 74, 0.7);*/
+$color-standard-light: mix($color-standard, rgb( 255, 255, 255), 70 );
+$color-black: rgb(25, 25, 25);
+$color-white: rgb( 255, 255, 255);
+
+$color-gray: rgb(236, 236, 236); 
+$color-lightgray: rgb(242, 242, 242);
+$color-darkgray: rgb(74,74,74);
+$color-green: rgb(182,215,162);
+
+$color-controlborder: rgb(221,221,221);
+$color-controlbg: rgb(255,255,255);
+
+$color-menu: rgb(236,236,236);
+/*$color-menuover: $color-standard;*/
+$color-menuover: mix( $color-standard, rgb( 255, 255, 255), 50);
+/*$color-selected: rgba(225, 51, 51, 0.5);*/
+$color-selected: mix( rgb(225, 51, 51), rgb( 255, 255, 255), 50 );
+$color-disabled: rgb(127,127,127);
+$color-primary: rgb( 0, 132, 61);
+/*$color-primary-light: rgba( 0, 132, 61, 0.7);*/
+$color-primary-light: mix($color-primary, rgb( 255, 255, 255), 70);
+$color-warning: rgb( 195, 55, 40 );
+/*$color-warning-light: rgba( 195, 55, 40, 0.7);*/
+$color-warning-light: mix($color-warning, rgb( 255, 255, 255), 70);
+$color-switch: $color-standard; /* #2196F3 */
+
+$color-cobalt: rgb(0, 117, 176);
+$color-skyblue: rbg(0, 83, 152);
+$color-slate: rgb(79, 89, 97);
+$color-leaf: rgb( 0, 132, 61);
+$color-moss: rgb(80, 127, 112);
+$color-sandstone: rgb(122, 104, 85);
+$color-burgundy: rgb(125, 34, 57);
+$color-pillarbox: rgb(179, 12, 0);
+$color-lavender: rgb(91, 77, 148);
+$color-thistle: rgb(149, 18, 114);
+$color-rust: rgb(190, 77, 0);
+
+/* for dark color text */
+$color-turquoise: rgb(0, 181, 209);
+$color-mocha: rgb( 170, 128, 102);
+$color-rose: rgb( 176, 108, 150);
+$color-pumpkin: rgb(255, 185, 72);
+$color-sunshine: rgb(255, 220, 54);
+
+$color-error: rgb( 251, 193, 209);
+
+/* action panel */
+$panel-action-width: 19.5em;  /* standard is 19.5em */
+$panel-action-border-color: rgb(187,187,187); /* standard is rgb(187,187,187) */
